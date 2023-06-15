@@ -104,7 +104,7 @@ fn edit_contact() {
     match selection {
         1 => {
             // Edit Name
-            println!("\nType the new first name: ");
+            println!("\nType the new name: ");
             let mut new_first_name_input = String::new();
             io::stdin().read_line(&mut new_first_name_input).expect("Failed to read line");
             let new_first_name: &str = new_first_name_input.trim();
